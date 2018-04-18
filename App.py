@@ -26,8 +26,8 @@ def sendsms(p, msg):
     lbl = Label(root,text="Member Registered Successfully", font = ("comic Sans Ms",10))
     lbl.pack()
     user = "" #your Way2sms phone number
-    pass = "" #your Way2sms password
-    zerosms.sms(phno=user,passwd=pass,message=msg,receivernum=p)
+    pwd = "" #your Way2sms password
+    zerosms.sms(phno=user,passwd=pwd,message=msg,receivernum=p)
 
 
 root = Tk()
